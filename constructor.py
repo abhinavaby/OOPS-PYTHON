@@ -10,3 +10,7 @@ fullname=input("enter fullname")
 age=int(input("enter age"))
 s1=student(fullname,age)
 print(s1)
+
+
+s2=student("Arjun",18)
+
