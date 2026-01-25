@@ -13,4 +13,7 @@ print(s1)
 
 
 s2=student("Arjun",18)
+print(s2.fullname)
+print(s2.age)
+
 
