@@ -47,7 +47,14 @@ class Complex2:
         newreal=self.real+other.real
         newimaginary=self.imaginary+other.imaginary
         return Complex2(newreal, newimaginary)
+    def __sub__(self, other):
+        newreal=self.real-other.real
+        newimaginary=self.imaginary-other.imaginary
+        return Complex2(newreal, newimaginary)
 s1=Complex2(1,2)
 s2=Complex2(3,4)
 s3=s1+s2
+s4=s1-s2
+
 s3.show()
+s4.show()
