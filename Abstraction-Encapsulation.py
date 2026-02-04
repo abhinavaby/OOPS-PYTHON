@@ -13,7 +13,7 @@ class car:
         print("starting",end=" ")
         for i in range(6):
             print(".",end=" ")
-            time.sleep(0.5)
+            time.slee
         print("started")
 s1=car()
 s1.start()
