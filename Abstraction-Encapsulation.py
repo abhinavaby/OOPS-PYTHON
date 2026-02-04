@@ -10,7 +10,7 @@ class car:
         self.acc=True #Abstraction
         self.brk=True #Abstraction
         self.clutch=True #Abstraction
-        print("starting",end=" ")
+        print("starting"=" ")
         for i in range(6):
             print(".",end=" ")
             time.slee
