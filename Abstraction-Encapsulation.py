@@ -8,12 +8,12 @@ class car:
         self.clutch=False #Abstraction
     def start(self):
         self.acc=True #Abstraction
-        self.brk=TrAbstraction
+        self.brk=True #Abstraction
         self.clutch=True #Abstraction
-        print("starting"=" ")
+        print("starting",end=" ")
         for i in range(6):
             print(".",end=" ")
-            time.slee
+            time.sleep(0.5)
         print("started")
 s1=car()
 s1.start()
@@ -40,7 +40,3 @@ print(s1)
 s2=student("Arjun",18)
 print(s2.fullname)
 print(s2.age)
-
-
-
-
