@@ -16,7 +16,7 @@ class car:
             time.sleep(0.5)
         print("started")
 s1=car()
-s1.sta
+s1.start()
 
 #Abstracted data not found in output(for the user )
 
