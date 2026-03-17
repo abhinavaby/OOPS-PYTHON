@@ -1,6 +1,6 @@
 #Abstraction:hiding the important details of a class and only showing the essential features to the user
 #Abstraction
-import 
+import time
 class car:
     def __init__(self):
         self.acc=False #Abstraction
